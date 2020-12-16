@@ -29,8 +29,7 @@ void setIO(string s){
     freopen((s + ".out").c_str(), "w", stdout);
 }
 
-ll N;
-ll ans, original;
+ll N, ans, original;
 
 int main() {
     //setIO("split"); 
